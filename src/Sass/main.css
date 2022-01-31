@@ -38,7 +38,13 @@ body {
 }
 
 .main {
-  padding: 5rem 35rem;
+  padding: 5rem 20%;
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    padding: 3rem 10%;
+  }
 }
 
 .form-container--form__inputs {
@@ -83,5 +89,17 @@ body {
 
 .form-container__button:active {
   transform: translateY(0.5rem);
+}
+
+.meme-container {
+  width: 100%;
+  margin-top: 6rem;
+  border-radius: 0.5rem;
+}
+
+.meme-container__image {
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
 }
 /*# sourceMappingURL=main.css.map */

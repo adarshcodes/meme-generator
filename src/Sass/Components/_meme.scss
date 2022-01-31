@@ -1,0 +1,11 @@
+.meme-container {
+	width: 100%;
+	margin-top: 6rem;
+	@include border-radius;
+
+	&__image {
+		width: 100%;
+		@include border-radius;
+		object-fit: cover;
+	}
+}
