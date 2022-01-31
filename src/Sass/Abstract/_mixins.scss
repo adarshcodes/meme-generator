@@ -58,3 +58,13 @@
 @mixin shadow-card {
 	box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
+
+// Gradient Background
+
+@mixin gradient-background {
+	background-image: linear-gradient(
+		to right,
+		$color-gradient-1,
+		$color-gradient-2
+	);
+}

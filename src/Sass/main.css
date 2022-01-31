@@ -17,4 +17,23 @@ body {
 body {
   font-family: "Inter", sans-serif;
 }
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(to right, #672280, #a626d3);
+  padding: 5rem;
+  height: 6.5rem;
+}
+
+.navbar__logo {
+  width: 6rem;
+  margin-right: 1rem;
+}
+
+.navbar__logo-text {
+  font-size: 3rem;
+  color: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */

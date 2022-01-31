@@ -1,0 +1,16 @@
+.navbar {
+	@include flex-row-start;
+	@include gradient-background;
+	padding: 5rem;
+	height: 6.5rem;
+
+	&__logo {
+		width: 6rem;
+		margin-right: 1rem;
+	}
+
+	&__logo-text {
+		font-size: 3rem;
+		color: $color-primary-white;
+	}
+}
