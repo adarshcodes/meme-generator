@@ -36,4 +36,52 @@ body {
   font-size: 3rem;
   color: #ffffff;
 }
+
+.main {
+  padding: 5rem 35rem;
+}
+
+.form-container--form__inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.form-container--form__input {
+  width: 48%;
+  outline: none;
+  border: 0.2rem solid #d5d4d8;
+  padding: 1.5rem 1rem;
+  font-size: 2rem;
+  color: #0d0d0d;
+  border-radius: 0.5rem;
+  transition: all 1s;
+}
+
+.form-container--form__input:focus {
+  outline: auto;
+}
+
+.form-container__button {
+  width: 100%;
+  padding: 1.5rem 0;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: #a626d3;
+  color: #ffffff;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.form-container__button:hover {
+  cursor: pointer;
+  background-color: #672280;
+}
+
+.form-container__button:active {
+  transform: translateY(0.5rem);
+}
 /*# sourceMappingURL=main.css.map */

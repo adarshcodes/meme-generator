@@ -68,3 +68,17 @@
 		$color-gradient-2
 	);
 }
+
+@mixin invert-gradient-background {
+	background-image: linear-gradient(
+		to left,
+		$color-gradient-1,
+		$color-gradient-2
+	);
+}
+
+// Border-Radius
+
+@mixin border-radius {
+	border-radius: 0.5rem;
+}
