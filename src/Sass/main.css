@@ -96,11 +96,36 @@ body {
   margin-top: 6rem;
   border-radius: 0.5rem;
   border: 0.2rem solid #672280;
+  position: relative;
 }
 
 .meme-container__image {
   width: 100%;
   border-radius: 0.5rem;
   object-fit: cover;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
 /*# sourceMappingURL=main.css.map */
