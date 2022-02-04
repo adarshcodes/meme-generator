@@ -21,10 +21,24 @@ export default function Main() {
 		}));
 	}
 
+	function setMemeText(event) {
+		const { name, value } = event.target;
+		setMeme((prevMeme) => {
+			return {
+				...prevMeme,
+				[name]: value,
+			};
+		});
+	}
+
 	return (
 		<div className="main">
-			<Form handleClick={getMemeImage} />
-			<Meme imageUpdate={meme.randomImg} />
+			<Form handleClick={getMemeImage} setMemeText={setMemeText} />
+			<Meme
+				imageUpdate={meme.randomImg}
+				topText={meme.topText}
+				bottomText={meme.bottomText}
+			/>
 		</div>
 	);
 }

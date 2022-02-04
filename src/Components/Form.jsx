@@ -9,7 +9,9 @@ export default function Form(props) {
 						type="text"
 						className="form-container--form__input"
 						id="top-text"
-						name="top-text"
+						name="topText"
+						onChange={props.setMemeText}
+						value={props.topText}
 						placeholder="Top Text"
 					/>
 
@@ -17,7 +19,9 @@ export default function Form(props) {
 						type="text"
 						className="form-container--form__input"
 						id="bottom-text"
-						name="bottom-text"
+						name="bottomText"
+						onChange={props.setMemeText}
+						value={props.bottomText}
 						placeholder="Bottom Text"
 					/>
 				</div>
